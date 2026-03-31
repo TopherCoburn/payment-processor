@@ -1,0 +1,68 @@
+.payment-processor {
+  width: 100%;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-processor h2 {
+  margin-top: 0;
+}
+
+.payment-processor .form-group {
+  margin-bottom: 20px;
+}
+
+.payment-processor .form-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.payment-processor .form-group input[type="text"],
+.payment-processor .form-group input[type="email"],
+.payment-processor .form-group input[type="password"],
+.payment-processor .form-group input[type="number"],
+.payment-processor .form-group select,
+.payment-processor .form-group textarea {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.payment-processor .form-group input[type="submit"] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.payment-processor .form-group input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+.payment-processor .alert {
+  padding: 20px;
+  background-color: #f2dede;
+  border: 1px solid #eed;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+.payment-processor .alert-danger {
+  background-color: #ddd;
+  border-color: #e0d0c0;
+}
+
+.payment-processor .alert-danger hr {
+  border-color: #ce372d;
+}
